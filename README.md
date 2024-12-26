@@ -17,7 +17,7 @@ Genrate random dad jokes sourced from the icanhazdadjoke API.
 
 Michelle Dowell - michelledowell6@gmail.com
 
-Project Link: [https://music-player-michelle.netlify.app/](https://music-player-michelle.netlify.app/)
+Project Link: [https://dad-joke-generator-michelle.netlify.app/](https://dad-joke-generator-michelle.netlify.app/)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
