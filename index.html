@@ -6,13 +6,23 @@
     <title>Dad Jokes Generator</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="config.js"></script>
-</head>
-<body class="bg-dark_teal h-screen p-4 flex items-center justify-center">
-    <main class="bg-light_teal px-24 py-16 rounded-lg">
-        <h1 class="text-2xl font-bold text-my_black sm:text-3xl">Dad Jokes Generator</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
+
+<body class="bg-dark_teal h-screen p-4 flex items-center justify-center font-oldenburg">
+    <main class="bg-light_teal px-14 py-16 rounded-lg text-center flex flex-col items-center">
+        <h1 class="text-2xl font-sans font-bold text-my_black sm:text-3xl">Dad Jokes Generator</h1>
         <section class="flex flex-col gap-8">
-            <p id="joke"></p>
-            <button class="bg-dark_teal text-cream p-4 rounded-lg shadow-[4px_5px_0_white] hover:bg-my_black">Get another joke</button>
+            <p 
+                id="joke" 
+                class="bg-cream h-full min-h-28 mt-8 p-4 w-xs rounded text-left text-sm sm:text-base sm:px-8  sm:max-w-sm">
+            </p>
+            <button 
+                id="joke-btn" 
+                class="bg-dark_teal text-cream p-4 rounded-lg shadow-[4px_5px_0_white] hover:bg-my_black">
+                Get another joke
+            </button>
         </section>
     </main>
 

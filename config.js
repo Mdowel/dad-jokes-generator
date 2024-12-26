@@ -7,6 +7,9 @@ tailwind.config = {
                 cream: '#FAFFDB',
                 pesto: '#C7AF3F',
                 my_black: '#292D30'
+            },
+            fontFamily: {
+                oldenburg: ['Oldenburg', 'sans-serif']
             }
         }
     }
